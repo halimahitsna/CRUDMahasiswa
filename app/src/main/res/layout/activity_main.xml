@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!--<ImageView
+        android:id="@+id/gbr_coba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>-->
+    <ListView
+        android:id="@+id/lv_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add_mahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_add_black_24dp"/>
+
+</RelativeLayout>
